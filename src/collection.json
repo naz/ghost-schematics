@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "repository": {
+      "description": "Schematic to generate a repository.",
+      "factory": "./lib/repository/repository.factory#main",
+      "schema": "./lib/repository/schema.json",
+      "aliases": [
+        "r",
+        "repo",
+        "repo_and_service"
+      ]
+    }
+  }
+}
