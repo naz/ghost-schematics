@@ -1,10 +1,22 @@
 # Getting Started With Schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+This is schematics (aka generators) to assist creating Ghost's HTTP API.
+
+To get started locally use:
+```
+yarn link "ghost-schematics"
+
+nest g -c ghost-schematics --flat entity Snippet
+```
 
 ### Testing
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+To test locally, install `@angular-devkit/schematics-cli` globally:
+```bash
+yarn global add @angular-devkit/schematics-cli
+```
+
+Use the `schematics` command line tool. That tool acts the same as the `generate` command of the Nest CLI / Angular CLI, but also has a debug mode.
 
 Check the documentation with
 
