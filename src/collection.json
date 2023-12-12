@@ -10,6 +10,15 @@
         "repo",
         "repo_and_service"
       ]
+    },
+    "ghost_entity": {
+      "description": "Schematic to generate a core entity.",
+      "factory": "./lib/entity/entity.factory#main",
+      "schema": "./lib/entity/schema.json",
+      "aliases": [
+        "entity",
+        "ge"
+      ]
     }
   }
 }

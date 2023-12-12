@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsconfig",
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "*.ts",
+  ],
+}
