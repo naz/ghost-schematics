@@ -2,7 +2,8 @@
 # Outputs
 src/**/*.js
 src/**/*.js.map
-src/**/*.d.ts
+# NOTE: need type definitions for the code to work!
+# src/**/*.d.ts
 
 # IDEs
 .idea/
